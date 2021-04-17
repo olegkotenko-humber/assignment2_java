@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sport-inventory-ui:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sport-inventory-ui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sports-inventory-ui.war">
+      <element id="artifact" artifact-name="sport-inventory-ui:war exploded" />
+    </root>
+  </artifact>
+</component>

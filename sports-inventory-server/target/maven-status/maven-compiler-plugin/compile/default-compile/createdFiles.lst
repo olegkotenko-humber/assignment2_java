@@ -1,0 +1,6 @@
+com\kotenko\inventory\InventoryService.class
+com\kotenko\inventory\InventoryServiceImpl.class
+com\kotenko\entity\Store.class
+com\kotenko\store\StoreService.class
+com\kotenko\entity\Inventory.class
+com\kotenko\store\StoreServiceImpl.class

@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sport-inventory-ui:war exploded">
+    <output-path>$PROJECT_DIR$/target/sports-inventory-ui</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>sport-inventory-ui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sport-inventory-ui" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.kotenko:inventory-registration-server:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:10.0.0-RC1" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.20" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/sports-inventory-ui/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sport-inventory-ui/web/Web" />
+    </root>
+  </artifact>
+</component>

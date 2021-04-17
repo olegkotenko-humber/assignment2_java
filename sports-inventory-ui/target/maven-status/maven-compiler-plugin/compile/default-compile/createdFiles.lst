@@ -1,0 +1,4 @@
+com\kotenko\interceptor\LoggedInterceptor.class
+com\kotenko\interceptor\Logged.class
+com\kotenko\InventoryView.class
+com\kotenko\StoreAppBean.class
